@@ -1,4 +1,3 @@
-#MTI0MTQ2NjY1OTk4Njg2NjM0MA.GxgUpP.NouLMpO5irbvL5qQDKwAP8-swKJsYPIQV9dQOE
 import discord
 from discord import app_commands
 from discord.ext import commands
@@ -507,6 +506,6 @@ async def load():
 async def main():
     async with bot:
         await load()
-        await bot.start('MTI0MTQ2NjY1OTk4Njg2NjM0MA.GxgUpP.NouLMpO5irbvL5qQDKwAP8-swKJsYPIQV9dQOE')
+        await bot.start('MTI0MTQ2NjY1OTk4Njg2NjM0MA.GxgUpP.NouLMpO5irbvL5qQDKwAP8-fakefakefake')
 
 asyncio.run(main())
